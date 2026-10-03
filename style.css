@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #2563eb, #06b6d4);
+    min-height: 100vh;
+}
+.auth-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.auth-card {
+    background: white;
+    width: 430px;
+    max-width: 100%;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.logo h1 {
+    color: #2563eb;
+    font-size: 27px;
+    margin-bottom: 8px;
+}
+
+.logo p {
+    color: #666;
+}
+
+.auth-card label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #333;
+}
+
+.auth-card input,
+.auth-card select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+}
+
+.auth-card input:focus,
+.auth-card select:focus {
+    border-color: #2563eb;
+}
+
+.primary-btn {
+    width: 100%;
+    padding: 13px;
+    margin-top: 22px;
+    border: none;
+    border-radius: 8px;
+    background: #2563eb;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.primary-btn:hover {
+    background: #1d4ed8;
+}
+
+.signup-text {
+    text-align: center;
+    margin-top: 20px;
+    color: #555;
+}
+
+.link-btn {
+    background: none;
+    border: none;
+    color: #2563eb;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.hidden {
+    display: none !important;
+}
